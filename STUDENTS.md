@@ -4,7 +4,9 @@ This is a **course fork of [Discourse](https://github.com/discourse/discourse)**
 platform (Ruby on Rails + Ember.js, PostgreSQL, Redis, Sidekiq). Development runs in **Docker** using the
 official `discourse/discourse_dev` image (Postgres + Redis + the app all in one container).
 
-📚 **Official documentation:** <https://meta.discourse.org/docs>
+#demo
+
+📚 **Official documentation:** [https://meta.discourse.org/docs](https://meta.discourse.org/docs)
 
 > ⚠️ **Windows users — read the Prerequisites first.** You must run with the source on a **Linux-native
 > filesystem** (WSL2 or the devcontainer). A plain Windows clone bind-mounted into Docker **does not work**.
@@ -13,14 +15,15 @@ official `discourse/discourse_dev` image (Postgres + Redis + the app all in one 
 
 ## 1. Prerequisites
 
-| Requirement | Notes |
-| --- | --- |
-| **Docker Desktop** | Running, WSL2 backend on Windows. Give it **≥ 6–8 GB RAM** (Settings → Resources). |
-| **Git** | |
-| **Disk** | ~15 GB free (the dev image is ~2–3 GB + gems + JS deps). |
-| **Windows only:** WSL2 **or** Dev Containers | The source must live on ext4, not `C:\`. Pick one below. |
+| Requirement                                              | Notes                                                                                      |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Docker Desktop**                                 | Running, WSL2 backend on Windows. Give it**≥ 6–8 GB RAM** (Settings → Resources). |
+| **Git**                                            |                                                                                            |
+| **Disk**                                           | ~15 GB free (the dev image is ~2–3 GB + gems + JS deps).                                  |
+| **Windows only:** WSL2 **or** Dev Containers | The source must live on ext4, not`C:\`. Pick one below.                                  |
 
 **Windows — pick ONE native-filesystem option:**
+
 - **WSL2 (recommended):** `wsl --install -d Ubuntu`, open the Ubuntu terminal, and clone into your Linux
   home (`~`), **NOT** `/mnt/c/...`. Enable Docker Desktop → Settings → Resources → **WSL Integration** for
   Ubuntu so `docker` works inside it.
@@ -57,6 +60,7 @@ Then open **http://localhost:3000** and log in with the admin email/password you
 `Pitchfork ready on http://localhost:3000`.)
 
 Everyday container control (from the host):
+
 ```bash
 docker start discourse_dev     # resume after a reboot
 docker stop  discourse_dev     # stop (data is preserved)
@@ -111,17 +115,17 @@ After `dev:populate` you'll have ~30 categories, ~30 users, and topics with post
 
 ## 5. Project documentation & policies (required reading)
 
-📚 **Official documentation:** <https://meta.discourse.org/docs> — user, admin, and developer
+📚 **Official documentation:** [https://meta.discourse.org/docs](https://meta.discourse.org/docs) — user, admin, and developer
 guides; plugin & theme development at
 [meta.discourse.org/c/documentation/dev/56](https://meta.discourse.org/c/documentation/dev/56).
 
 Discourse has its own established contribution processes. They are **not restated here** — you are
 responsible for finding, reading, and following them from the sources below:
 
-| You must take care of | Where to find it |
-| --- | --- |
-| How to use the tool | <https://meta.discourse.org/docs> |
-| Code review process | [Discourse Development Contribution Guidelines](https://meta.discourse.org/t/discourse-development-contribution-guidelines/3823) |
-| Bug / issue resolution process | [How to make bug reports for Discourse](https://meta.discourse.org/t/how-to-make-bug-reports-for-discourse/33070) · [How to request new features](https://meta.discourse.org/t/how-to-request-new-features-for-discourse/32986) |
-| Pull request conventions & PR policies | [CONTRIBUTING.md](CONTRIBUTING.md) (incl. the **CLA** requirement) + the [contribution guidelines](https://meta.discourse.org/t/discourse-development-contribution-guidelines/3823) |
-| AI policies | [AI-AGENTS.md](AI-AGENTS.md) (this repo's AI-agent guide) |
+| You must take care of                  | Where to find it                                                                                                                                                                                                               |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| How to use the tool                    | [https://meta.discourse.org/docs](https://meta.discourse.org/docs)                                                                                                                                                              |
+| Code review process                    | [Discourse Development Contribution Guidelines](https://meta.discourse.org/t/discourse-development-contribution-guidelines/3823)                                                                                                |
+| Bug / issue resolution process         | [How to make bug reports for Discourse](https://meta.discourse.org/t/how-to-make-bug-reports-for-discourse/33070) · [How to request new features](https://meta.discourse.org/t/how-to-request-new-features-for-discourse/32986) |
+| Pull request conventions & PR policies | [CONTRIBUTING.md](CONTRIBUTING.md) (incl. the **CLA** requirement) + the [contribution guidelines](https://meta.discourse.org/t/discourse-development-contribution-guidelines/3823)                                        |
+| AI policies                            | [AI-AGENTS.md](AI-AGENTS.md) (this repo's AI-agent guide)                                                                                                                                                                       |
