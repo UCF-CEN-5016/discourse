@@ -40,7 +40,7 @@ jobs:
             target: core # Handled by core_frontend_tests job (below)
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
@@ -184,7 +184,7 @@ jobs:
         browser: ["Chrome", "Firefox", "Headless Firefox"]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 1
 
