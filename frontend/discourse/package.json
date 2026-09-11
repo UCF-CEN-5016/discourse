@@ -36,7 +36,7 @@
     "@glimmer/syntax": "0.95.0",
     "@glint/ember-tsc": "^1.2.3",
     "@glint/template": "^1.7.7",
-    "@highlightjs/cdn-assets": "11.11.1",
+    "@highlightjs/cdn-assets": "11.12.0",
     "@json-editor/json-editor": "2.15.2",
     "@discourse/gif": "^1.0.0",
     "@discourse/heic": "^1.0.0",
