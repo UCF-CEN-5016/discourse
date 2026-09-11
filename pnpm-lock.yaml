@@ -34,7 +34,7 @@ importers:
     devDependencies:
       '@discourse/lint-configs':
         specifier: ^3.0.1
-        version: 3.0.1(jiti@2.6.1)(postcss@8.5.15)(prettier@3.8.1)
+        version: 3.0.1(jiti@2.6.1)(postcss@8.5.28)(prettier@3.8.1)
       '@discourse/moment-timezone-names-translations':
         specifier: ^1.0.0
         version: 1.0.0
@@ -88,7 +88,7 @@ importers:
     devDependencies:
       '@discourse/lint-configs':
         specifier: ^3.0.1
-        version: 3.0.1(jiti@2.6.1)(postcss@8.5.15)(prettier@3.8.1)
+        version: 3.0.1(jiti@2.6.1)(postcss@8.5.28)(prettier@3.8.1)
       prettier:
         specifier: 3.8.1
         version: 3.8.1
@@ -106,7 +106,7 @@ importers:
         version: 7.29.4
       '@csstools/postcss-light-dark-function':
         specifier: ^3.0.1
-        version: 3.0.1(postcss@8.5.15)
+        version: 3.0.1(postcss@8.5.28)
       '@rollup/browser':
         specifier: ^4.60.3
         version: 4.60.3
@@ -118,7 +118,7 @@ importers:
         version: 3.0.0
       autoprefixer:
         specifier: ^10.5.0
-        version: 10.5.0(postcss@8.5.15)
+        version: 10.5.0(postcss@8.5.28)
       babel-plugin-ember-template-compilation:
         specifier: ^4.0.0
         version: 4.0.0
@@ -159,14 +159,14 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       postcss:
-        specifier: ^8.5.15
-        version: 8.5.15
+        specifier: ^8.5.28
+        version: 8.5.28
       postcss-js:
         specifier: ^5.1.0
-        version: 5.1.0(postcss@8.5.15)
+        version: 5.1.0(postcss@8.5.28)
       postcss-nesting:
         specifier: ^14.0.0
-        version: 14.0.0(postcss@8.5.15)
+        version: 14.0.0(postcss@8.5.28)
       readable-stream:
         specifier: ^4.7.0
         version: 4.7.0
@@ -722,259 +722,259 @@ importers:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/chat:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/checklist:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-adplugin:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-affiliate:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-ai:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-apple-auth:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-assign:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-cakeday:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-calendar:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-chat-integration:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-data-explorer:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-details:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-gamification:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-github:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-graphviz:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-hcaptcha:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-lazy-videos:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-local-dates:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-login-with-amazon:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-lti:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-math:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-microsoft-auth:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-narrative-bot:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-oauth2-basic:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-openid-connect:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-patreon:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-policy:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-post-voting:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-presence:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-reactions:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-rss-polling:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-solved:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-subscriptions:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-templates:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-topic-voting:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-user-notes:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/discourse-zendesk-plugin:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/footnote:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/poll:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/spoiler-alert:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   plugins/styleguide:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
   themes/horizon:
     dependencies:
       discourse:
         specifier: npm:@discourse/types@*
-        version: '@discourse/types@2026.5.0-570ad470'
+        version: '@discourse/types@2026.9.0-cc57a7e8'
 
 packages:
 
@@ -1706,8 +1706,8 @@ packages:
   '@discourse/resize@2.1.1':
     resolution: {integrity: sha512-iSPfgyCWTXsLcYoUN7/TxTbCSMlSqCI2v9/dCmg5dQdr/qi0TtRKjMzmSy7+8+Ns2v076IQDtdyfvBT8CQPd3g==}
 
-  '@discourse/types@2026.5.0-570ad470':
-    resolution: {integrity: sha512-nMK0uyk3a5Ipq2ZLBH1+B9kS7WwIp5bMiSqxdHHk0cknM89LnJ4lw3g1aK1XgfZOmX3dcb9wQ8Hn79GbJ2zcNg==}
+  '@discourse/types@2026.9.0-cc57a7e8':
+    resolution: {integrity: sha512-yxR72bEx7BWZZgyehZfu6GTbDFlyJFI9PHH9KBYmiftC9PSWjUAckraWBHN55DjKZuEVQW0HCDi/2PtXxTVlnA==}
     engines: {node: '>= 20', npm: please-use-pnpm, pnpm: ^10, yarn: please-use-pnpm}
 
   '@discourse/webp@1.5.0':
@@ -2709,48 +2709,56 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@oxc-parser/binding-linux-arm64-musl@0.130.0':
     resolution: {integrity: sha512-EiJ/gC0ljbcwVpycC8YWw6ggMbtsPX8XMOt0mPx0aqWeMsNR+L9m05Flbvd5T+GlivG+GkSWQL7tM9SRFpM/dw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@oxc-parser/binding-linux-ppc64-gnu@0.130.0':
     resolution: {integrity: sha512-b+h/lsLLurp756dMGizNs5uPaJfyEdWrTcV5t8M609jWm1DEHB1StpRXCkyvwtkJx3m+qL5BNQ0dEKan/4yGFA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@oxc-parser/binding-linux-riscv64-gnu@0.130.0':
     resolution: {integrity: sha512-O19Cil83XAyjEFfo8WhkMwY58ALqZ7ckjGL+25mjMIuF84urWBeANH0FC8B8BsSSygWU3/1aY3ADdDbp+wlBnw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
   '@oxc-parser/binding-linux-riscv64-musl@0.130.0':
     resolution: {integrity: sha512-BgXRVC0+83n3YzCscLQjj6nbyeBIVeZYPTI4fFMAE4WNm2+4RXhWp03IVizL7esIz36kgmT48aebk1iM+cs8sw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
+    libc: [musl]
 
   '@oxc-parser/binding-linux-s390x-gnu@0.130.0':
     resolution: {integrity: sha512-6tJz0xvnGhsokE7N1WlUSBXibpYmT9xSJFS1Ce41Km/+8gQvdlW8MLhRv8PD0L7ix8vRG0FDDepp3jdOFzdVdw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@oxc-parser/binding-linux-x64-gnu@0.130.0':
     resolution: {integrity: sha512-9aCWj83dp3heTQGmGnZGdIWgxjZrr/7VQ0TGFHH5PKByxJKF2Hcr4qvaSUHhhGEa3MSsDjTL1YDP8RAgdL5/Cg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@oxc-parser/binding-linux-x64-musl@0.130.0':
     resolution: {integrity: sha512-afXt87aZBqrUVli8TB/I8H1G50RDWcwirjWtXGXYqJ2ZqWEiErH7V72j3LUSDZaivmtu2OLX0KQ/mbhP81mr7A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@oxc-parser/binding-openharmony-arm64@0.130.0':
     resolution: {integrity: sha512-I0NCrZV/YZuCGWgqwNN/GO/iXlLF2z+Wgc7u+Aa9N4P51oYeIa0XT+zVBUne4csO9GqxskXgI4g8JzzWGRpfOw==}
@@ -2865,66 +2873,79 @@ packages:
     resolution: {integrity: sha512-t4ONHboXi/3E0rT6OZl1pKbl2Vgxf9vJfWgmUoCEVQVxhW6Cw/c8I6hbbu7DAvgp82RKiH7TpLwxnJeKv2pbsw==}
     cpu: [arm]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm-musleabihf@4.59.0':
     resolution: {integrity: sha512-CikFT7aYPA2ufMD086cVORBYGHffBo4K8MQ4uPS/ZnY54GKj36i196u8U+aDVT2LX4eSMbyHtyOh7D7Zvk2VvA==}
     cpu: [arm]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-arm64-gnu@4.59.0':
     resolution: {integrity: sha512-jYgUGk5aLd1nUb1CtQ8E+t5JhLc9x5WdBKew9ZgAXg7DBk0ZHErLHdXM24rfX+bKrFe+Xp5YuJo54I5HFjGDAA==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-arm64-musl@4.59.0':
     resolution: {integrity: sha512-peZRVEdnFWZ5Bh2KeumKG9ty7aCXzzEsHShOZEFiCQlDEepP1dpUl/SrUNXNg13UmZl+gzVDPsiCwnV1uI0RUA==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-loong64-gnu@4.59.0':
     resolution: {integrity: sha512-gbUSW/97f7+r4gHy3Jlup8zDG190AuodsWnNiXErp9mT90iCy9NKKU0Xwx5k8VlRAIV2uU9CsMnEFg/xXaOfXg==}
     cpu: [loong64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-loong64-musl@4.59.0':
     resolution: {integrity: sha512-yTRONe79E+o0FWFijasoTjtzG9EBedFXJMl888NBEDCDV9I2wGbFFfJQQe63OijbFCUZqxpHz1GzpbtSFikJ4Q==}
     cpu: [loong64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-ppc64-gnu@4.59.0':
     resolution: {integrity: sha512-sw1o3tfyk12k3OEpRddF68a1unZ5VCN7zoTNtSn2KndUE+ea3m3ROOKRCZxEpmT9nsGnogpFP9x6mnLTCaoLkA==}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-ppc64-musl@4.59.0':
     resolution: {integrity: sha512-+2kLtQ4xT3AiIxkzFVFXfsmlZiG5FXYW7ZyIIvGA7Bdeuh9Z0aN4hVyXS/G1E9bTP/vqszNIN/pUKCk/BTHsKA==}
     cpu: [ppc64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-riscv64-gnu@4.59.0':
     resolution: {integrity: sha512-NDYMpsXYJJaj+I7UdwIuHHNxXZ/b/N2hR15NyH3m2qAtb/hHPA4g4SuuvrdxetTdndfj9b1WOmy73kcPRoERUg==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-riscv64-musl@4.59.0':
     resolution: {integrity: sha512-nLckB8WOqHIf1bhymk+oHxvM9D3tyPndZH8i8+35p/1YiVoVswPid2yLzgX7ZJP0KQvnkhM4H6QZ5m0LzbyIAg==}
     cpu: [riscv64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-linux-s390x-gnu@4.59.0':
     resolution: {integrity: sha512-oF87Ie3uAIvORFBpwnCvUzdeYUqi2wY6jRFWJAy1qus/udHFYIkplYRW+wo+GRUP4sKzYdmE1Y3+rY5Gc4ZO+w==}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-gnu@4.59.0':
     resolution: {integrity: sha512-3AHmtQq/ppNuUspKAlvA8HtLybkDflkMuLK4DPo77DfthRb71V84/c4MlWJXixZz4uruIH4uaa07IqoAkG64fg==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@rollup/rollup-linux-x64-musl@4.59.0':
     resolution: {integrity: sha512-2UdiwS/9cTAx7qIUZB/fWtToJwvt0Vbo0zmnYt7ED35KPg13Q0ym1g442THLC7VyI6JfYTP4PiSOWyoMdV2/xg==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rollup/rollup-openbsd-x64@4.59.0':
     resolution: {integrity: sha512-M3bLRAVk6GOwFlPTIxVBSYKUaqfLrn8l0psKinkCFxl4lQvOSz8ZrKDz2gxcBwHFpci0B6rttydI4IpS4IS/jQ==}
@@ -3038,36 +3059,42 @@ packages:
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@swc/core-linux-arm64-musl@1.15.33':
     resolution: {integrity: sha512-il7tYM+CpUNzieQbwAjFT1P8zqAhmGWNAGhQZBnxurXZ0aNn+5nqYFTEUKNZl7QibtT0uQXzTZrNGHCIj6Y1Og==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@swc/core-linux-ppc64-gnu@1.15.33':
     resolution: {integrity: sha512-ZtNBwN0Z7CFj9Il0FcPaKdjgP7URyKu/3RfH46vq+0paOBqLj4NYldD6Qo//Duif/7IOtAraUfDOmp0PLAufog==}
     engines: {node: '>=10'}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@swc/core-linux-s390x-gnu@1.15.33':
     resolution: {integrity: sha512-De1IyajoOmhOYYjw/lx66bKlyDpHZTueqwpDrWgf5O7T6d1ODeJJO9/OqMBmrBQc5C+dNnlmIufHsp4QVCWufA==}
     engines: {node: '>=10'}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@swc/core-linux-x64-gnu@1.15.33':
     resolution: {integrity: sha512-mGTH0YxmUN+x6vRN/I6NOk5X0ogNktkwPnJ94IMvR7QjhRDwL0O8RXEDhyUM0YtwWrryBOqaJQBX4zruxEPRGw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@swc/core-linux-x64-musl@1.15.33':
     resolution: {integrity: sha512-hj628ZkSEJf6zMf5VMbYrG2O6QqyTIp2qwY6VlCjvIa9lAEZ5c2lfPblCLVGYubTeLJDxadLB/CxqQYOQABeEQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@swc/core-win32-arm64-msvc@1.15.33':
     resolution: {integrity: sha512-GV2oohtN2/5+KSccl86VULu3aT+LrISC8uzgSq0FRnikpD+Zwc+sBlXmoKQ+Db6jI57ITUOIB8jRkdGMABC29g==}
@@ -4077,6 +4104,7 @@ packages:
 
   charm@1.0.2:
     resolution: {integrity: sha512-wqW3VdPnlSWT4eRiYX+hcs+C6ViBPUWk1qTCd+37qw9kEm/a5n2qcyQDMBWvSYKN/ctqZzeXNQaeBjOetJJUkw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   chart.js@4.5.1:
     resolution: {integrity: sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw==}
@@ -6916,8 +6944,8 @@ packages:
   namespace-emitter@2.0.1:
     resolution: {integrity: sha512-N/sMKHniSDJBjfrkbS/tpkPj4RAbvW3mr8UAzvlMHyun93XEm83IAvhWtJVHo+RHn/oO8Job5YN4b+wRjSVp5g==}
 
-  nanoid@3.3.12:
-    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
+  nanoid@3.3.18:
+    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -7491,8 +7519,8 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.15:
-    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
+  postcss@8.5.28:
+    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact@10.12.1:
@@ -10104,17 +10132,17 @@ snapshots:
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
 
-  '@csstools/postcss-light-dark-function@3.0.1(postcss@8.5.15)':
+  '@csstools/postcss-light-dark-function@3.0.1(postcss@8.5.28)':
     dependencies:
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
-      '@csstools/postcss-progressive-custom-properties': 5.1.0(postcss@8.5.15)
-      '@csstools/utilities': 3.0.0(postcss@8.5.15)
-      postcss: 8.5.15
+      '@csstools/postcss-progressive-custom-properties': 5.1.0(postcss@8.5.28)
+      '@csstools/utilities': 3.0.0(postcss@8.5.28)
+      postcss: 8.5.28
 
-  '@csstools/postcss-progressive-custom-properties@5.1.0(postcss@8.5.15)':
+  '@csstools/postcss-progressive-custom-properties@5.1.0(postcss@8.5.28)':
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
       postcss-value-parser: 4.2.0
 
   '@csstools/selector-resolve-nested@4.0.0(postcss-selector-parser@7.1.1)':
@@ -10125,9 +10153,9 @@ snapshots:
     dependencies:
       postcss-selector-parser: 7.1.1
 
-  '@csstools/utilities@3.0.0(postcss@8.5.15)':
+  '@csstools/utilities@3.0.0(postcss@8.5.28)':
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
   '@dabh/diagnostics@2.0.3':
     dependencies:
@@ -10147,7 +10175,7 @@ snapshots:
     dependencies:
       wasm-feature-detect: 1.8.0
 
-  '@discourse/lint-configs@3.0.1(jiti@2.6.1)(postcss@8.5.15)(prettier@3.8.1)':
+  '@discourse/lint-configs@3.0.1(jiti@2.6.1)(postcss@8.5.28)(prettier@3.8.1)':
     dependencies:
       '@babel/core': 7.29.0(supports-color@8.1.1)
       '@babel/eslint-parser': 7.28.6(@babel/core@7.29.0)(eslint@9.39.2(jiti@2.6.1))
@@ -10165,7 +10193,7 @@ snapshots:
       prettier-plugin-ember-template-tag: 2.1.3(prettier@3.8.1)
       stylelint: 17.11.1(typescript@5.9.3)
       stylelint-config-standard: 40.0.0(stylelint@17.11.1(typescript@5.9.3))
-      stylelint-config-standard-scss: 17.0.0(postcss@8.5.15)(stylelint@17.11.1(typescript@5.9.3))
+      stylelint-config-standard-scss: 17.0.0(postcss@8.5.28)(stylelint@17.11.1(typescript@5.9.3))
       stylelint-scss: 7.0.0(stylelint@17.11.1(typescript@5.9.3))
       typescript: 5.9.3
     transitivePeerDependencies:
@@ -10182,7 +10210,7 @@ snapshots:
 
   '@discourse/resize@2.1.1': {}
 
-  '@discourse/types@2026.5.0-570ad470': {}
+  '@discourse/types@2026.9.0-cc57a7e8': {}
 
   '@discourse/webp@1.5.0':
     dependencies:
@@ -12324,13 +12352,13 @@ snapshots:
       stubborn-fs: 2.0.0
       when-exit: 2.1.5
 
-  autoprefixer@10.5.0(postcss@8.5.15):
+  autoprefixer@10.5.0(postcss@8.5.28):
     dependencies:
       browserslist: 4.28.2
       caniuse-lite: 1.0.30001788
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.15
+      postcss: 8.5.28
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.7:
@@ -13384,13 +13412,13 @@ snapshots:
 
   css-loader@5.2.7(webpack@5.99.9(@swc/core@1.15.33)):
     dependencies:
-      icss-utils: 5.1.0(postcss@8.5.15)
+      icss-utils: 5.1.0(postcss@8.5.28)
       loader-utils: 2.0.4
-      postcss: 8.5.15
-      postcss-modules-extract-imports: 3.1.0(postcss@8.5.15)
-      postcss-modules-local-by-default: 4.2.0(postcss@8.5.15)
-      postcss-modules-scope: 3.2.1(postcss@8.5.15)
-      postcss-modules-values: 4.0.0(postcss@8.5.15)
+      postcss: 8.5.28
+      postcss-modules-extract-imports: 3.1.0(postcss@8.5.28)
+      postcss-modules-local-by-default: 4.2.0(postcss@8.5.28)
+      postcss-modules-scope: 3.2.1(postcss@8.5.28)
+      postcss-modules-values: 4.0.0(postcss@8.5.28)
       postcss-value-parser: 4.2.0
       schema-utils: 3.3.0
       semver: 7.8.0
@@ -13398,13 +13426,13 @@ snapshots:
 
   css-loader@5.2.7(webpack@5.99.9):
     dependencies:
-      icss-utils: 5.1.0(postcss@8.5.15)
+      icss-utils: 5.1.0(postcss@8.5.28)
       loader-utils: 2.0.4
-      postcss: 8.5.15
-      postcss-modules-extract-imports: 3.1.0(postcss@8.5.15)
-      postcss-modules-local-by-default: 4.2.0(postcss@8.5.15)
-      postcss-modules-scope: 3.2.1(postcss@8.5.15)
-      postcss-modules-values: 4.0.0(postcss@8.5.15)
+      postcss: 8.5.28
+      postcss-modules-extract-imports: 3.1.0(postcss@8.5.28)
+      postcss-modules-local-by-default: 4.2.0(postcss@8.5.28)
+      postcss-modules-scope: 3.2.1(postcss@8.5.28)
+      postcss-modules-values: 4.0.0(postcss@8.5.28)
       postcss-value-parser: 4.2.0
       schema-utils: 3.3.0
       semver: 7.8.0
@@ -15580,9 +15608,9 @@ snapshots:
     dependencies:
       safer-buffer: 2.1.2
 
-  icss-utils@5.1.0(postcss@8.5.15):
+  icss-utils@5.1.0(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
   ieee754@1.2.1: {}
 
@@ -16560,7 +16588,7 @@ snapshots:
 
   namespace-emitter@2.0.1: {}
 
-  nanoid@3.3.12: {}
+  nanoid@3.3.18: {}
 
   nanoid@5.1.9: {}
 
@@ -17110,49 +17138,49 @@ snapshots:
 
   possible-typed-array-names@1.1.0: {}
 
-  postcss-js@5.1.0(postcss@8.5.15):
+  postcss-js@5.1.0(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
   postcss-media-query-parser@0.2.3: {}
 
-  postcss-modules-extract-imports@3.1.0(postcss@8.5.15):
+  postcss-modules-extract-imports@3.1.0(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
-  postcss-modules-local-by-default@4.2.0(postcss@8.5.15):
+  postcss-modules-local-by-default@4.2.0(postcss@8.5.28):
     dependencies:
-      icss-utils: 5.1.0(postcss@8.5.15)
-      postcss: 8.5.15
+      icss-utils: 5.1.0(postcss@8.5.28)
+      postcss: 8.5.28
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
 
-  postcss-modules-scope@3.2.1(postcss@8.5.15):
+  postcss-modules-scope@3.2.1(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
       postcss-selector-parser: 7.1.1
 
-  postcss-modules-values@4.0.0(postcss@8.5.15):
+  postcss-modules-values@4.0.0(postcss@8.5.28):
     dependencies:
-      icss-utils: 5.1.0(postcss@8.5.15)
-      postcss: 8.5.15
+      icss-utils: 5.1.0(postcss@8.5.28)
+      postcss: 8.5.28
 
-  postcss-nesting@14.0.0(postcss@8.5.15):
+  postcss-nesting@14.0.0(postcss@8.5.28):
     dependencies:
       '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.1)
       '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
-      postcss: 8.5.15
+      postcss: 8.5.28
       postcss-selector-parser: 7.1.1
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-  postcss-safe-parser@7.0.1(postcss@8.5.15):
+  postcss-safe-parser@7.0.1(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
-  postcss-scss@4.0.9(postcss@8.5.15):
+  postcss-scss@4.0.9(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
   postcss-selector-parser@6.1.2:
     dependencies:
@@ -17166,9 +17194,9 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  postcss@8.5.15:
+  postcss@8.5.28:
     dependencies:
-      nanoid: 3.3.12
+      nanoid: 3.3.18
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -18246,26 +18274,26 @@ snapshots:
 
   styled_string@0.0.1: {}
 
-  stylelint-config-recommended-scss@17.0.0(postcss@8.5.15)(stylelint@17.11.1(typescript@5.9.3)):
+  stylelint-config-recommended-scss@17.0.0(postcss@8.5.28)(stylelint@17.11.1(typescript@5.9.3)):
     dependencies:
-      postcss-scss: 4.0.9(postcss@8.5.15)
+      postcss-scss: 4.0.9(postcss@8.5.28)
       stylelint: 17.11.1(typescript@5.9.3)
       stylelint-config-recommended: 18.0.0(stylelint@17.11.1(typescript@5.9.3))
       stylelint-scss: 7.0.0(stylelint@17.11.1(typescript@5.9.3))
     optionalDependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
   stylelint-config-recommended@18.0.0(stylelint@17.11.1(typescript@5.9.3)):
     dependencies:
       stylelint: 17.11.1(typescript@5.9.3)
 
-  stylelint-config-standard-scss@17.0.0(postcss@8.5.15)(stylelint@17.11.1(typescript@5.9.3)):
+  stylelint-config-standard-scss@17.0.0(postcss@8.5.28)(stylelint@17.11.1(typescript@5.9.3)):
     dependencies:
       stylelint: 17.11.1(typescript@5.9.3)
-      stylelint-config-recommended-scss: 17.0.0(postcss@8.5.15)(stylelint@17.11.1(typescript@5.9.3))
+      stylelint-config-recommended-scss: 17.0.0(postcss@8.5.28)(stylelint@17.11.1(typescript@5.9.3))
       stylelint-config-standard: 40.0.0(stylelint@17.11.1(typescript@5.9.3))
     optionalDependencies:
-      postcss: 8.5.15
+      postcss: 8.5.28
 
   stylelint-config-standard@40.0.0(stylelint@17.11.1(typescript@5.9.3)):
     dependencies:
@@ -18312,8 +18340,8 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.15
-      postcss-safe-parser: 7.0.1(postcss@8.5.15)
+      postcss: 8.5.28
+      postcss-safe-parser: 7.0.1(postcss@8.5.28)
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
       string-width: 8.2.1
@@ -18355,8 +18383,8 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.15
-      postcss-safe-parser: 7.0.1(postcss@8.5.15)
+      postcss: 8.5.28
+      postcss-safe-parser: 7.0.1(postcss@8.5.28)
       postcss-selector-parser: 7.1.1
       postcss-value-parser: 4.2.0
       string-width: 8.2.1
@@ -18900,7 +18928,7 @@ snapshots:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.4)
       picomatch: 4.0.4
-      postcss: 8.5.15
+      postcss: 8.5.28
       rollup: 4.59.0
       tinyglobby: 0.2.16
     optionalDependencies:
