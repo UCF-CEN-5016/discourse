@@ -37,7 +37,7 @@
     "@glint/ember-tsc": "^1.2.3",
     "@glint/template": "^1.7.7",
     "@highlightjs/cdn-assets": "11.11.1",
-    "@json-editor/json-editor": "2.15.2",
+    "@json-editor/json-editor": "2.17.2",
     "@discourse/gif": "^1.0.0",
     "@discourse/heic": "^1.0.0",
     "@discourse/jpeg": "^1.0.0",
