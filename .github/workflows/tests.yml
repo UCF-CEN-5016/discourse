@@ -220,7 +220,7 @@ jobs:
         timeout-minutes: 30
 
       - name: Upload failed system test screenshots
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         if: matrix.build_type == 'system' && failure()
         with:
           name: failed-system-test-screenshots
@@ -299,7 +299,7 @@ jobs:
         run: yarn ember exam --path /tmp/emberbuild --load-balance --parallel=5 --launch "${{ env.TESTEM_BROWSER }}" --write-execution-file --random
         timeout-minutes: 15
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v7
         if: ${{ always() }}
         with:
           name: ember-exam-execution-${{ matrix.browser }}
